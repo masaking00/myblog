@@ -1,0 +1,13 @@
+body,
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  line-height:2;
+  background: #111111;
+  font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+}
+
+#top-navbar {
+  background: #111111;
+}

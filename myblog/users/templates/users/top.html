@@ -1,4 +1,11 @@
 {% extends "users/base.html" %}
 {% block content %}
-<p>ここに、好きな内容を入れる。</p>
+{% load static %}
+<img src="{% static 'img/img_top.jpg' %}" class="img-fluid" alt="Top Image">
+{% if user.is_authenticated %}
+    <p>ログインしてますよ！！</p>
+{% else %}
+    <p>ログインをしてください</p>
+{% endif %}
+
 {% endblock %}
