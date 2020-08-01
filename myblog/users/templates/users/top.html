@@ -1,7 +1,7 @@
 {% extends "users/base.html" %}
 {% block content %}
 {% load static %}
-<img src="{% static 'img/img_top.jpg' %}" class="img-fluid" alt="Top Image">
+<img src="{% static 'img/img_top.jpg' %}" class="img-fluid" alt="Top Image" width="400">
 {% if user.is_authenticated %}
     <p>ログインしてますよ！！</p>
 {% else %}
